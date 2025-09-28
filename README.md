@@ -62,7 +62,7 @@ This is an Arduino-based Smart Robot designed to improve safety and efficiency i
 ---
 
 ## Arduino Code
-The full source code is available here: [SmartRobot.ino](code/SmartRobot.ino)
+The full source code is available here: [SmartRobot.ino](https://github.com/Sakshi-web-cmd/Smart-Robot-For-Industrial-Automation/blob/main/SmartRobot.ino)
 
 ### Example Snippet
 ```cpp

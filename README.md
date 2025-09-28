@@ -64,18 +64,3 @@ This is an Arduino-based Smart Robot designed to improve safety and efficiency i
 ## Arduino Code
 The full source code is available here: [SmartRobot.ino](https://github.com/Sakshi-web-cmd/Smart-Robot-For-Industrial-Automation/blob/main/SmartRobot.ino)
 
-### Example Snippet
-```cpp
-// Example snippet from the project
-int motor1 = 3; 
-int motor2 = 4;
-
-void setup() {
-  pinMode(motor1, OUTPUT);
-  pinMode(motor2, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(motor1, HIGH);
-  digitalWrite(motor2, LOW);
-}

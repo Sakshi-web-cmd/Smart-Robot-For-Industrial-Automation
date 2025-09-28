@@ -5,20 +5,20 @@ This is an Arduino-based Smart Robot designed to improve safety and efficiency i
 
 ## Features
 
-1. *Obstacle Detection and Avoidance*  
-   - Uses *ultrasonic sensors* to detect obstacles.  
+1. Obstacle Detection and Avoidance  
+   - Uses ultrasonic sensors to detect obstacles.  
    - Automatically navigates around objects to prevent collisions.
 
-2. *Fire Detection and Pumping*  
-   - Equipped with a *flame sensor* to detect fire.  
-   - Activates a *water pump* to extinguish small fires.
+2. Fire Detection and Pumping  
+   - Equipped with a flame sensor to detect fire.  
+   - Activates a water pump to extinguish small fires.
 
-3. *Bluetooth Control*  
-   - Allows remote control via a *Bluetooth module*.  
+3. Bluetooth Control  
+   - Allows remote control via a Bluetooth module.  
    - Enables manual navigation and task execution.
 
-4. *Voice Command Control*  
-   - Supports *voice commands* through Bluetooth.  
+4. Voice Command Control  
+   - Supports voice commands through Bluetooth.  
    - Provides hands-free operation.
 
 ---
@@ -51,18 +51,31 @@ This is an Arduino-based Smart Robot designed to improve safety and efficiency i
 
 ---
 
-## Video Demonstration
-[Watch the Demo Video](https://drive.google.com/file/d/1-CBAICWw7sS5Bs-uyOOS3EeF1eZqAOwb/view?usp=sharing)
+## Images
+
+
+[Block Diagram](https://github.com/user-attachments/assets/b714d80c-8baa-45fe-8d8e-e2ee23ddb78e)
+
+
+[Flowchart](https://github.com/user-attachments/assets/9ff8ec3a-1042-478b-879a-d8f439af4680)  
 
 ---
 
-## How It Works
-- The robot navigates autonomously using ultrasonic sensors.  
-- Detects fire using flame sensors and activates the water pump.  
-- Can also be manually controlled using a Bluetooth controller or voice commands.  
-- Ideal for industrial and warehouse safety and automation.
+## Arduino Code
+The full source code is available here: [SmartRobot.ino](code/SmartRobot.ino)
 
----
+### Example Snippet
+```cpp
+// Example snippet from the project
+int motor1 = 3; 
+int motor2 = 4;
 
-## Folder Structure (Optional)
+void setup() {
+  pinMode(motor1, OUTPUT);
+  pinMode(motor2, OUTPUT);
+}
 
+void loop() {
+  digitalWrite(motor1, HIGH);
+  digitalWrite(motor2, LOW);
+}
